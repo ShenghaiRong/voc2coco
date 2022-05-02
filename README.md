@@ -1,7 +1,7 @@
 # voc2coco
 This is script for converting VOC instance annotations to COCO format json(ex. coco_style.json).
 
-Owing to include the instance segmentation annotation, the voc_cocostyle.json can be used to train the instance segmentation network(e.g. Mask R-CNN)
+Owing to including the instance segmentation annotation, the voc_cocostyle.json can be used to train the instance segmentation network(e.g. Mask R-CNN)
 
 We use [MMDetection](https://github.com/open-mmlab/mmdetection) to train Mask R-CNN with the generated voc2012_train_aug_cocostyle.json.
 
@@ -14,13 +14,16 @@ We use [MMDetection](https://github.com/open-mmlab/mmdetection) to train Mask R-
 ```bash
 $ python voc2coco.py \
     --image_list_dir /path/to/image_list/dir \
-    --image_list /path/to/image/dir \
+    --image_dir /path/to/image/dir \
     --ann_dir /path/to/annotation/dir \
     --labels /path/to/labels.txt \
     --output /path/to/output.json \
     --voc_ins_label_style 'png' \
     --seg_dir /path/to/GTsegmentation/dir \
 ```
+
+## Check coco json file
+Here we provide a script to check the generated json file which you can see in check.ipynb.
 
 ## Download cocostlye json
 And we also directly provide the ground truth cocostyle json file of voc2012 for downloading.
