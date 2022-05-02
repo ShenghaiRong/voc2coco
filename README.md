@@ -1,13 +1,13 @@
 # voc2coco
 This is script for converting VOC instance annotations to COCO format json(ex. coco_style.json).
 
-Owing to including the instance segmentation annotation, the voc_cocostyle.json can be used to train the instance segmentation network(e.g. Mask R-CNN)
+Owing to including the instance segmentation annotation, the voc_cocostyle.json can be used to train the instance segmentation network(e.g. Mask R-CNN).
 
 We use [MMDetection](https://github.com/open-mmlab/mmdetection) to train Mask R-CNN with the generated voc2012_train_aug_cocostyle.json.
 
-|    Backbone     | Lr schd |  box mAP50 | mask mAP50 |
-| :-------------: | :-----: | :----: | :-----: |
-|    R-50-FPN|   2x   | 73.9   | 67.3   |  
+|    Dataset      |    Backbone     | Lr schd |  box mAP50 | mask mAP50 |
+| :-------------: | :-------------: | :-----: | :----: | :-----: |
+|  VOC2012  |R-50-FPN|   2x   | 73.9   | 67.3   |  
 
 ## Run script
 
