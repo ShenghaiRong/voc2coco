@@ -1,5 +1,7 @@
 # voc2coco
-This is script for converting VOC instance annotations to COCO format json(ex. coco_style.json).
+This is script for converting VOC instance annotations(ins_gt_mask.png) to COCO format json(ex. coco_style.json).
+
+The script also supports converting VOC format xml or npy to COCO format json.
 
 Owing to including the instance segmentation annotation, the voc_cocostyle.json can be used to train the instance segmentation network(e.g. Mask R-CNN).
 
