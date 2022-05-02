@@ -26,5 +26,6 @@ $ python voc2coco.py \
 As shown in [test.ipynb](./test.ipynb), we provide a script to check the generated json file.
 
 ## Download cocostyle json
-And we also directly provide the ground truth cocostyle json file of voc2012 for downloading.
-Download link: https://pan.baidu.com/s/1_20wk1uFxKo6VvKEttCkwg?pwd=77ki code: 77ki
+We also directly provide the ground truth cocostyle json file of voc2012 for downloading.
+
+Download link: https://pan.baidu.com/s/1_20wk1uFxKo6VvKEttCkwg?pwd=77ki Code: 77ki
