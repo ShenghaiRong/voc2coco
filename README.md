@@ -22,9 +22,9 @@ $ python voc2coco.py \
     --seg_dir /path/to/GTsegmentation/dir \
 ```
 
-## Check coco json file
-Here we provide a script to check the generated json file which you can see in check.ipynb.
+## Check cocostyle json
+As shown in [test.ipynb](./test.ipynb), we provide a script to check the generated json file.
 
-## Download cocostlye json
+## Download cocostyle json
 And we also directly provide the ground truth cocostyle json file of voc2012 for downloading.
 Download link: https://pan.baidu.com/s/1_20wk1uFxKo6VvKEttCkwg?pwd=77ki code: 77ki
