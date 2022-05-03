@@ -9,7 +9,7 @@ We use [MMDetection](https://github.com/open-mmlab/mmdetection) to train Mask R-
 
 |    Dataset      |    Backbone     | Lr schd |  box mAP50 | mask mAP50 |
 | :-------------: | :-------------: | :-----: | :----: | :-----: |
-|  VOC2012-Val |R-50-FPN|   2x   | 73.9   | 67.3   |  
+|  VOC2012-Val |R-50-FPN|   2x   | 74.3   | 68.3   |  
 
 ## Run script
 
